@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Source+Code+Pro&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(161, 159, 159);
+    width: 434px;
+    font-family: 'Oswald', sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 25px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    background-color: white;
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.infocontainer{
+    background-color: rgb(112, 184, 236);
+    height: 70vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.Hello{
+    font-size: 65px;
+}
+
+.Name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+
+.About{
+    font-size: 40px;
+}
+.Aboutmore{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Oswald', sans-serif;
+}
+.buttons{
+    margin-top: 34px;
+}
+
+.btn-sm{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 9px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 14px;
+    padding: 10px 19px;
+    margin: 12px 0;
+}
+
+.btn:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devPic img{
+    height: 70vh;
+}
+
+.contactform{
+    font-family: 'Oswald', sans-serif;
+    padding: 0 34px;
+    padding-top: 144px;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+   width: 26vw;
+   border-radius: 5px;
+   margin: 6px 0 0 0;
+   padding: 3px;
+}
+
+#emailHelp{
+    font-size: 12px;
+    color: midnightblue;
+    margin: 0 5px;    
+}
+
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0; 
+
+}
+
+.intro h2{
+    font-family: 'Oswald', sans-serif;
+    margin: 12px;
+
+
+}
+
+.intro p{
+    font-family: 'Oswald', sans-serif;
+    margin: 12px;
+}
+
+.skill{
+    width: 23px;
+    height: 26px;
+    background-color: red;
+}
+
+.skillcontainer{
+    padding: 12px;
+}
+
+.skillitem{
+    display: flexbox;
+}
+
+.skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+
+}
+
+.humdred{
+    width: 265px;
+    background-color :blue;
+}
+.fifty{
+    width: 125px;
+    background-color: blue;
+}
+.t5{
+    width: 75px;
+    background-color: aqua;
+}
